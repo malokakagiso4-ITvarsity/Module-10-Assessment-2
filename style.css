@@ -2,16 +2,14 @@ html{
     height: 100%;
 }
 
-body {
+body{
     font-family: sans-serif;
-
     margin: 0;
     padding: 0;
-
     height: 100%;
 }
 
-.body-home {
+.body-home{
     background-image: url('images/background-01-port.png');
     background-position: center;
     background-attachment: fixed;
@@ -19,7 +17,7 @@ body {
     background-size: cover;
 }
 
-.body-meals {
+.body-meals{
     background-image: url('images/background-02-port.png');
     background-position: center;
     background-attachment: fixed;
@@ -27,97 +25,95 @@ body {
     background-size: cover;
 }
 
-/*==========HEADER==========*/
+/*========== HEADER ===========*/
 
 .header{
-    background-color: #2196f2;
-
+    background-color: #2196f3;
     width: 100%;
-    top: 0px;
-
+    height: 50px;
+    top: 0;
     position: fixed;
     overflow: hidden;
-
     text-align: center;
 }
 
 .header i{
     float: left;
     padding: 17px 0px 0px 17px;
-    color:white;
+    color: white;
 }
 
 .header img{
-    width: 100%;
-    height: 30px;
-    padding-top: 0px;
-    padding-right: 10px;
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
 }
 
-/*==========HOME PAGE==========*/
+/*========== HOME PAGE ===========*/
 
-#home-logo-img {
+#home-logo-img{
     width: 50px;
     display: block;
     margin: auto;
     padding: 25px 10px 10px 10px;
 }
 
-#home-logo-text {
+#home-logo-text{
     width: auto;
     display: block;
     margin: auto;
     padding: 25px;
 }
 
-/*=====HOME PAGE MENU=====*/
-.home-menu-item {
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item{
     text-decoration: none;
     text-transform: uppercase;
-
+    
     color: white;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     border: 5px solid white;
-
+    
     display: block;
     margin: auto;
     margin-bottom: 10px;
     width: 80%;
 }
 
-/*==========MEALS PAGE==========*/
+/*========== MEALS PAGE ===========*/
 
-#meals {
+#meals{
     padding-top: 50px;
 }
 
-/*=====MEALS PAGE MENU=====*/
+/*===== MEALS PAGE MENU =====*/
 
-.meals-list a {
+.meals-list a{
     text-decoration: none;
 }
 
-.meals-list-item {
+.meals-list-item{
     border: 5px solid #1a1a1a;
     margin: 10px;
 }
 
-.meals-list-item h1 {
+.meals-list-item h1{
     font-weight: bold;
     font-size: 20px;
     color: #1a1a1a;
     padding-left: 10px;
 }
 
-meals-list-item i{
+.meals-list-item i{
     float: right;
     color: #1a1a1a;
-    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.meals-list-item p {
+.meals-list-item p{
     font-size: 15px;
     font-style: italic;
     color: #4d4d4d;
@@ -125,15 +121,15 @@ meals-list-item i{
     padding-left: 10px;
 }
 
-/*==========RECIPE PAGE==========*/
+/*========== RECIPE PAGE ===========*/
 
-#recipe {
+#recipe{
     padding-top: 50px;
 }
 
-/*=====RECIPE DETAILS=====*/
+/*===== RECIPE DETAILS =====*/
 
-.recipe-details img {
+.recipe-details img{
     width: 100%;
 }
 
@@ -145,57 +141,132 @@ meals-list-item i{
     padding: 5px;
 }
 
-.recipe-details h2 {
+.recipe-details h2{
     font-size: 20px;
     text-align: left;
     margin: 0;
     margin-left: 10px;
 }
 
-.recipe-details info{
+.recipe-details-info{
     margin-left: 25px;
     margin-right: 25px;
 }
 
-.recipe-details-info p {
+.recipe-details-info p{
     font-size: 13px;
     display: inline-block;
 }
 
-.recipe-details-ingredients label {
+.recipe-details-Ingredients label{
     line-height: 25px;
     margin-left: 10px;
 }
 
-.recipe-details steps {
+.recipe-details-steps{
     padding-top: 20px;
 }
 
-.recipe-details ol {
+.recipe-details-steps ol{
     padding-left: 28px;
 }
 
-/*==========RESPONSIVE LAYOUT==========*/
+/*========== DRINKS PAGE ===========*/
+
+#drinks{
+    padding-top: 50px;
+}
+
+/*===== DRINKS PAGE MENU =====*/
+
+.drinks-list a{
+    text-decoration: none;
+}
+
+.drinks-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.drinks-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.drinks-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.drinks-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+
+/*========== DESSERTS PAGE ===========*/
+
+#desserts{
+    padding-top: 50px;
+}
+
+/*===== DESSERTS PAGE MENU =====*/
+
+.desserts-list a{
+    text-decoration: none;
+}
+
+.desserts-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.desserts-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.desserts-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.desserts-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*===== RESPONSIVE LAYOUT=====*/
 
 @media only screen and (min-width: 600px) {
-
     #meals {
         width: 80%;
-        margin: auto;
+        margin: auto; 
     }
-
+    
     #recipe {
         width: 80%;
         margin: auto;
     }
-}
-
+    
 @media only screen and (min-width: 1000px) {
     #meals {
         width: 60%;
-        margin: auto;
+        margin: auto; 
     }
-
+    
     #recipe {
         width: 60%;
         margin: auto;
@@ -203,22 +274,93 @@ meals-list-item i{
 }
 
 @media only screen and (min-width: 1500px) {
-    #meals {
+      #meals {
         width: 40%;
-        margin: auto;
+        margin: auto; 
     }
-
+    
     #recipe {
         width: 40%;
         margin: auto;
     }
+}
+    
+@media only screen and (min-width: 600px) {
+    #drinks {
+        width: 80%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+    
+@media only screen and (min-width: 1000px) {
+    #drinks {
+        width: 60%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
 
-   @media  only screen and (min-width: 720px) {
-       .body-home {
-           background-image: url('images/background-01-land.png');
-       }
+@media only screen and (min-width: 1500px) {
+      #drinks {
+        width: 40%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
+    
+    
+@media only screen and (min-width: 600px) {
+    #desserts {
+        width: 80%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+    
+@media only screen and (min-width: 1000px) {
+    #desserts {
+        width: 60%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
 
-       .body-meals {
-           background-image: url('images/background-02-land.png');
-       }
-    } 
+@media only screen and (min-width: 1500px) {
+      #desserts {
+        width: 40%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
+    
+@media only screen and (min-width: 720px) {
+    .body-home {
+        background-image: url('images/background-01-land.png');
+    }
+    .body-meals {
+        background-image: url('images/background-02-land.png');
+    }
+}
